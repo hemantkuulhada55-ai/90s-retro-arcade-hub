@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Tunnel 2099 - Retro Game</title>
+    <style>
+        body {
+            background-color: #05050a;
+            color: #00ffcc;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            margin: 0;
+            padding: 50px;
+        }
+        h1 {
+            color: #ff00ff;
+            text-shadow: 2px 2px #00ffcc;
+        }
+        .game-box {
+            border: 3px solid #00ffcc;
+            background: #101026;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0, 255, 204, 0.4);
+            border-radius: 10px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #ff00ff;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border: 2px solid #fff;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #00ffcc;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>NEON TUNNEL 2099</h1>
+    <p>Stage 01 - Classic 90s Arcade Experience</p>
+
+    <div class="game-box">
+        <h2>Game Loaded Successfully!</h2>
+        <p style="color: #aaa; margin: 20px 0;">Your retro arcade game engine is ready to play.</p>
+        <a href="../index.html" class="btn">⬅ BACK TO ARCADE HUB</a>
+    </div>
+
+</body>
+</html>
